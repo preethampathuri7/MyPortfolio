@@ -1,6 +1,6 @@
 # Preetham Pathuri - Portfolio 🚀
 
-Welcome to my personal portfolio repository!
+Welcome to my personal portfolio  repository!
 
 **Techstack** - React, TypeScript, GSAP, ThreeJS, HTML, CSS, JavaScript
 
