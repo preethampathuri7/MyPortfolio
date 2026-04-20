@@ -30,19 +30,6 @@ const Career = () => {
             <div className="career-info-in">
               <div className="career-role">
                 <h4>Software Engineer</h4>
-                <h5>East West Bank</h5>
-              </div>
-              <h3>Jul 2024 - Dec 2024</h3>
-            </div>
-            <p>
-              Worked on backend services within a MicroServices based banking platform, contributing to customer onboarding, account management, and transaction-processing features using Java and Spring Boot. Worked with data access layers using Spring Data JPA and Hibernate, supporting transactional operations and ensuring consistency for banking records stored in MySQL/PostgreSQL.
-            </p>
-          </div>
-
-          <div className="career-info-box">
-            <div className="career-info-in">
-              <div className="career-role">
-                <h4>Software Engineer</h4>
                 <h5>Zoho Corporation</h5>
               </div>
               <h3>Jul 2022 - Dec 2023</h3>
