@@ -1,7 +1,5 @@
-import AvatarPhoto from "../AvatarPhoto";
-
 const CharacterModel = () => {
-  return <AvatarPhoto />;
+  return null;
 };
 
 export default CharacterModel;
