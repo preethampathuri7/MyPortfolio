@@ -6,7 +6,10 @@ const About = () => {
       <div className="about-me">
         <h3 className="title">About Me</h3>
         <p className="para">
-          Application Developer with 4 years of experience and strong expertise in developing enterprise web applications and implementing RESTful API integrations using Java and Spring Boot. Skilled in designing transactional workflows, optimizing backend logic, and managing relational databases using JPA and SQL.
+          Full Stack Engineer with <strong>4 years of experience</strong> developing and
+          analyzing complex software systems across Java, Python, C++, C#, and SQL.
+          Specialized in code reviews, API integrations, microservices architecture,
+          and backend systems — delivering high-quality, scalable solutions under tight deadlines.
         </p>
       </div>
     </div>

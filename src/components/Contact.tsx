@@ -10,25 +10,19 @@ const Contact = () => {
           <div className="contact-box">
             <h4>Email</h4>
             <p>
-              <a href="mailto:preethampathuri05@gmail.com" data-cursor="disable">
-                preethampathuri05@gmail.com
+              <a href="mailto:ulakshmiprasan25@gmail.com" data-cursor="disable">
+                ulakshmiprasan25@gmail.com
               </a>
             </p>
+            <h4>Phone</h4>
+            <p>+1 (562) 575-9772</p>
             <h4>Education</h4>
             <p>MS in Computer Science</p>
           </div>
           <div className="contact-box">
             <h4>Social</h4>
             <a
-              href="https://github.com/preethampathuri7"
-              target="_blank"
-              data-cursor="disable"
-              className="contact-social"
-            >
-              Github <MdArrowOutward />
-            </a>
-            <a
-              href="https://www.linkedin.com/in/preetham-pathuri/"
+              href="https://www.linkedin.com/in/lakshmiprasannaud/"
               target="_blank"
               data-cursor="disable"
               className="contact-social"
@@ -38,7 +32,9 @@ const Contact = () => {
           </div>
           <div className="contact-box">
             <h2>
-              Designed and Developed <br /> by <span>Preetham Pathuri</span>
+              Designed and Developed <br /> by <span>Lakshmi Prasanna</span>
+              <br />
+              <span>Udumula</span>
             </h2>
             <h5>
               <MdCopyright /> 2026

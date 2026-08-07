@@ -1,3 +1,4 @@
+/* ─── Space Navbar ─── */
 .header {
   display: flex;
   max-width: var(--cMaxWidth);
@@ -11,7 +12,9 @@
   transform: translateX(-50%);
   top: 0;
   z-index: 9999;
+  align-items: center;
 }
+
 .header ul {
   font-size: 12px;
   display: flex;
@@ -23,61 +26,83 @@
   row-gap: 8px;
   align-items: end;
 }
+
 .header ul li {
   margin-left: 0px;
-  letter-spacing: 1px;
-  color: #ccc;
+  letter-spacing: 2px;
+  color: rgba(226, 232, 240, 0.7);
   font-weight: 600;
   cursor: pointer;
+  font-family: "Orbitron", monospace;
+  font-size: 10px;
+  transition: color 0.3s ease;
 }
+
+.header ul li:hover {
+  color: var(--accentColor);
+}
+
 .navbar-connect {
   position: absolute;
   display: none;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
-  font-size: 15px;
+  font-size: 12px;
   letter-spacing: 1px;
-  font-weight: 500;
+  font-weight: 400;
+  color: rgba(167, 139, 250, 0.7);
+  transition: color 0.3s;
 }
+
+/* When LPU logo is removed, email takes left position */
+.navbar-connect-visible {
+  position: relative;
+  display: block !important;
+  left: auto;
+  top: auto;
+  transform: none;
+  font-size: 12px;
+  letter-spacing: 1px;
+  font-weight: 400;
+  color: rgba(167, 139, 250, 0.7);
+  transition: color 0.3s;
+}
+
+.navbar-connect:hover {
+  color: var(--accentColor);
+}
+
 .navbar-title {
-  font-weight: 700;
-  font-size: 14px;
-  letter-spacing: 0.2px;
+  font-weight: 800;
+  font-size: 18px;
+  letter-spacing: 2px;
+  font-family: "Orbitron", monospace;
+  background: linear-gradient(135deg, var(--accentColor), var(--accentSecondary));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: none;
+  filter: drop-shadow(0 0 12px rgba(167, 139, 250, 0.5));
 }
+
 @media only screen and (min-width: 500px) {
-  .header {
-    padding: 20px 0px;
-  }
+  .header { padding: 20px 0px; }
   .header ul {
     flex-direction: row;
     align-items: center;
-    font-size: 14px;
+    font-size: 10px;
   }
-  .header ul li {
-    color: #eae5ec;
-  }
-  .navbar-title {
-    font-size: 16px;
-  }
+  .navbar-title { font-size: 20px; }
 }
+
 @media only screen and (min-width: 900px) {
-  .navbar-connect {
-    display: block;
-  }
+  .navbar-connect { display: block; }
 }
+
 @media only screen and (min-width: 1200px) {
-  .header {
-    padding: 35px 0px;
-  }
-  .header ul {
-    column-gap: 80px;
-    font-size: 16px;
-  }
-  .navbar-connect {
-    font-size: 16px;
-  }
-  .navbar-title {
-    font-size: 18px;
-  }
+  .header { padding: 35px 0px; }
+  .header ul { column-gap: 60px; }
+  .navbar-connect { font-size: 13px; }
+  .navbar-title { font-size: 22px; }
 }
