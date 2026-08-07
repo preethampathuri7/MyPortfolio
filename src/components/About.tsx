@@ -18,10 +18,10 @@ const About = () => {
       <div className="about-me">
         <h3 className="title">About Me</h3>
         <p className="para">
-          Full Stack Engineer with <strong>4 years of experience</strong> developing and
-          analyzing complex software systems across Java, Python, C++, C#, and SQL.
-          Specialized in code reviews, API integrations, microservices architecture,
-          and backend systems — delivering high-quality, scalable solutions under tight deadlines.
+          Full Stack Engineer with <strong>4 years of experience</strong> developing, reviewing,
+          and analyzing complex software systems across Java, Python, C++, C#, and SQL.
+          Experienced in code reviews, microservices, REST APIs, and database transactions — delivering
+          high-quality technical analysis and scalable engineering solutions under tight deadlines.
         </p>
       </div>
     </div>

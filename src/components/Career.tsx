@@ -16,13 +16,13 @@ const Career = () => {
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Full Stack Developer</h4>
-                <h5>Optum</h5>
+                <h4>Full-Stack Developer</h4>
+                <h5>Cognizant</h5>
               </div>
-              <h3>2025 - Present</h3>
+              <h3>Jul 2025 – Present</h3>
             </div>
             <p>
-              Extended the Claims Adjudication and Eligibility Verification modules developing RESTful endpoints using Java and Spring Boot. Refined business rules and optimized repository queries using Spring Data JPA. Managed Secured API transactions using Spring Security and JWT.
+              Conducted detailed code reviews and technical analysis across Java, Spring Boot, Angular, REST APIs, and SQL-based enterprise applications. Investigated complex software issues by tracing execution across frontend components, REST APIs, microservices, application logs, and database transactions. Reviewed and refactored Spring Boot, Spring Data JPA, and Hibernate services to improve reliability, performance, and maintainability.
             </p>
           </div>
 
@@ -30,25 +30,38 @@ const Career = () => {
             <div className="career-info-in">
               <div className="career-role">
                 <h4>Software Engineer</h4>
-                <h5>Zoho Corporation</h5>
+                <h5>CVS Health</h5>
               </div>
-              <h3>Jul 2022 - Dec 2023</h3>
+              <h3>Jul 2024 – May 2025</h3>
             </div>
             <p>
-              Engineered Zoho’s SaaS business platform using Java, Spring Boot, Hibernate, and PostgreSQL with Angular frontend. Optimized Invoicing and Subscription Management modules using multithreading.
+              Investigated production issues affecting customer workflows by tracing API requests, application logs, service interactions, and SQL Server records. Supported healthcare customer onboarding and account-management workflows by building Java and Spring Boot services that processed member information and coordinated data across integrated application components. Integrated REST APIs with internal and external services.
             </p>
           </div>
 
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Software Engineer</h4>
-                <h5>Flipkart</h5>
+                <h4>Software Developer</h4>
+                <h5>Wells Fargo</h5>
               </div>
-              <h3>May 2021 - Jun 2022</h3>
+              <h3>Sep 2022 – Mar 2024</h3>
             </div>
             <p>
-              Developed and enhanced features within product listing and cart management workflows using Java, Spring Boot, Hibernate, and MySQL. Built UI components using HTML, CSS, JavaScript.
+              Built and integrated RESTful APIs using Spring MVC and Spring Data JPA, tracing request flows across application services and database layers to validate business logic and ensure accurate processing of customer and transaction data. Analyzed production defects by reviewing Java code, application logs, API requests and responses, and database records to identify root causes and support timely resolution.
+            </p>
+          </div>
+
+          <div className="career-info-box">
+            <div className="career-info-in">
+              <div className="career-role">
+                <h4>Junior Developer</h4>
+                <h5>Infosys</h5>
+              </div>
+              <h3>Nov 2020 – Jul 2022</h3>
+            </div>
+            <p>
+              Assisted in developing and maintaining backend applications using Java, Spring Boot, and MySQL, contributing to the implementation of new features for enterprise applications. Built and enhanced RESTful APIs using Spring MVC and Spring Data JPA. Implemented business logic and database operations using Hibernate and SQL, maintaining data consistency across multiple modules.
             </p>
           </div>
 

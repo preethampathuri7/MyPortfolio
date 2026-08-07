@@ -124,6 +124,20 @@
   color: #7dd3fc;
 }
 
+/* Database icon: pink/rose gradient bg */
+.wid-icon-db {
+  background: linear-gradient(135deg, rgba(244,114,182,0.20), rgba(217,70,239,0.10));
+  border: 1px solid rgba(244,114,182,0.25);
+  color: #f472b6;
+}
+
+/* Tools icon: gold/amber gradient bg */
+.wid-icon-tools {
+  background: linear-gradient(135deg, rgba(251,191,36,0.20), rgba(245,158,11,0.10));
+  border: 1px solid rgba(251,191,36,0.25);
+  color: #fbbf24;
+}
+
 .wid-card h3 {
   font-family: "Orbitron", monospace;
   font-size: 18px;
