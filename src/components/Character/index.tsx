@@ -1,7 +1,7 @@
-import Scene from "./Scene";
+import AvatarPhoto from "../AvatarPhoto";
 
 const CharacterModel = () => {
-  return <Scene />;
+  return <AvatarPhoto />;
 };
 
 export default CharacterModel;
